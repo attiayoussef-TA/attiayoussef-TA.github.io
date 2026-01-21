@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luxury-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="10%" style="stop-color:#FDB931;stop-opacity:1" /> <stop offset="30%" style="stop-color:#FFFACD;stop-opacity:1" /> <stop offset="60%" style="stop-color:#D4AF37;stop-opacity:1" /> <stop offset="90%" style="stop-color:#996515;stop-opacity:1" /> </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="100" fill="#050505"/>
+  
+  <rect x="30" y="30" width="452" height="452" rx="80" 
+        fill="none" 
+        stroke="url(#luxury-gold)" 
+        stroke-width="12" 
+        opacity="0.8"/>
+
+  <text x="50%" y="54%" 
+        dominant-baseline="middle" 
+        text-anchor="middle" 
+        font-family="'Didot', 'Bodoni MT', 'Times New Roman', serif" 
+        font-weight="bold" 
+        font-style="italic" 
+        font-size="240" 
+        fill="url(#luxury-gold)"
+        letter-spacing="-15">
+    Y.A
+  </text>
+  
+  <rect x="238" y="380" width="30" height="30" 
+        fill="url(#luxury-gold)" 
+        transform="rotate(45 253 395)" />
+
+</svg>
